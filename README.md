@@ -76,7 +76,7 @@ The full dataset is hosted on **Mendeley Data**:
 [**Download ACHENY Dataset**](https://data.mendeley.com/datasets/fpfty8nn7j/1)
 
 
-> 🖼️ **Looking for High-Resolution images?** Original uncompressed files are available for research purposes. See [DATA_REQUEST.md](./images/DATA_REQUEST.md) for details.
+> 🖼️ **Looking for High-Resolution images?** Original uncompressed files are available for research purposes. See [DATA_REQUEST.md](./Images/DATA_REQUEST.md) for details.
 
 
 
