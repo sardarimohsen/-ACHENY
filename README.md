@@ -1,5 +1,3 @@
-
-```markdown
 # ACHENY: A Standard Chenopodiaceae Image Dataset
 ![Dataset Preview](Images/Samples.jpg)
 
