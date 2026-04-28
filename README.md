@@ -13,10 +13,35 @@ To include these papers, I have updated the `README.md` with a **"Research & Pub
 ## 📌 Overview
 Identifying species within the Chenopodiaceae family is historically challenging due to high morphological similarities. This dataset provides **27,030 high-resolution images** across **30 species**, captured in real-world desert and semi-desert conditions in the Yazd province of Iran.
 
+# ACHENY: A Standard Chenopodiaceae Plant Image Dataset
+![Dataset Preview](Images/Samples.jpg)
+
+
 ### Key Features:
 * **Diverse Conditions:** Captured under varying sunlight, wind, viewpoints, and distances.
 * **Standardized Format:** RGB images resized to $224 \times 224$ pixels (with $64 \times 64$ versions also available).
 * **Expert Labeling:** Collected from multiple bushes per species to ensure high intra-species variety.
+
+### 🌿 Species List
+The ACHENY dataset covers **30 distinct species** within the Chenopodiaceae family. Below is a list of the species included in this repository:
+
+| ID | Scientific Name | ID | Scientific Name |
+| :--- | :--- | :--- | :--- |
+| 1 | *Agriophyllum latifolium* | 16 | *Salsola canescens* |
+| 2 | *Anabasis aphylla* | 17 | *Salsola dendroides* |
+| 3 | *Anabasis setifera* | 18 | *Salsola drummondii* |
+| 4 | *Atriplex canescens* | 19 | *Salsola gobicola* |
+| 5 | *Atriplex leucoclada* | 20 | *Salsola incanescens* |
+| 6 | *Atriplex verrucifera* | 21 | *Salsola jordanicola* |
+| 7 | *Chenopodium album* | 22 | *Salsola kali* |
+| 8 | *Halocharis violacea* | 23 | *Salsola kerneri* |
+| 9 | *Halocnemum strobilaceum* | 24 | *Salsola nitraria* |
+| 10 | *Halostachys caspica* | 25 | *Salsola orientalis* |
+| 11 | *Haloxylon ammodendron* | 26 | *Salsola tomentosa* |
+| 12 | *Haloxylon persicum* | 27 | *Salsola turcomanica* |
+| 13 | *Hammada salicornica* | 28 | *Seidlitzia rosmarinus* |
+| 14 | *Noaea mucronata* | 29 | *Suaeda aegyptiaca* |
+| 15 | *Salsola arbuscula* | 30 | *Suaeda vermiculata* |
 
 ---
 
