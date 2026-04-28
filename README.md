@@ -75,5 +75,10 @@ If you use the ACHENY dataset or the related models in your research, please cit
 The full dataset is hosted on **Mendeley Data**:
 [**Download ACHENY Dataset**](https://data.mendeley.com/datasets/fpfty8nn7j/1)
 
+
+> 🖼️ **Looking for High-Resolution images?** Original uncompressed files are available for research purposes. See [DATA_REQUEST.md](./images/DATA_REQUEST.md) for details.
+
+
+
 ### 📄 License
 The dataset is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
