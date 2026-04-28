@@ -1,8 +1,7 @@
-To include these papers, I have updated the `README.md` with a **"Research & Publications"** section. This allows you to differentiate between the paper that describes the *dataset itself* and the papers that present *models and benchmarks* using that data.
-
 ---
 
 # ACHENY: A Standard Chenopodiaceae Image Dataset
+![Dataset Preview](Images/Samples.jpg)
 
 [![Paper](https://img.shields.io/badge/Paper-Data_in_Brief-blue)](https://www.researchgate.net/publication/355225478_ACHENY_A_Standard_Chenopodiaceae_Image_dataset_for_Deep_Learning_Models)
 [![Data](https://img.shields.io/badge/Mendeley-Data-orange)](https://data.mendeley.com/datasets/fpfty8nn7j/1)
@@ -14,7 +13,7 @@ To include these papers, I have updated the `README.md` with a **"Research & Pub
 Identifying species within the Chenopodiaceae family is historically challenging due to high morphological similarities. This dataset provides **27,030 high-resolution images** across **30 species**, captured in real-world desert and semi-desert conditions in the Yazd province of Iran.
 
 # ACHENY: A Standard Chenopodiaceae Plant Image Dataset
-![Dataset Preview](Images/Samples.jpg)
+
 
 
 ### Key Features:
@@ -22,26 +21,41 @@ Identifying species within the Chenopodiaceae family is historically challenging
 * **Standardized Format:** RGB images resized to $224 \times 224$ pixels (with $64 \times 64$ versions also available).
 * **Expert Labeling:** Collected from multiple bushes per species to ensure high intra-species variety.
 
-### 🌿 Species List
-The ACHENY dataset covers **30 distinct species** within the Chenopodiaceae family. Below is a list of the species included in this repository:
+## 🌿 Species List & Taxonomy
+The dataset contains 30 species collected from various habitats.
 
-| ID | Scientific Name | ID | Scientific Name |
+| Row | Class ID | Scientific Name | Natural Habitat Area Studied |
 | :--- | :--- | :--- | :--- |
-| 1 | *Agriophyllum latifolium* | 16 | *Salsola canescens* |
-| 2 | *Anabasis aphylla* | 17 | *Salsola dendroides* |
-| 3 | *Anabasis setifera* | 18 | *Salsola drummondii* |
-| 4 | *Atriplex canescens* | 19 | *Salsola gobicola* |
-| 5 | *Atriplex leucoclada* | 20 | *Salsola incanescens* |
-| 6 | *Atriplex verrucifera* | 21 | *Salsola jordanicola* |
-| 7 | *Chenopodium album* | 22 | *Salsola kali* |
-| 8 | *Halocharis violacea* | 23 | *Salsola kerneri* |
-| 9 | *Halocnemum strobilaceum* | 24 | *Salsola nitraria* |
-| 10 | *Halostachys caspica* | 25 | *Salsola orientalis* |
-| 11 | *Haloxylon ammodendron* | 26 | *Salsola tomentosa* |
-| 12 | *Haloxylon persicum* | 27 | *Salsola turcomanica* |
-| 13 | *Hammada salicornica* | 28 | *Seidlitzia rosmarinus* |
-| 14 | *Noaea mucronata* | 29 | *Suaeda aegyptiaca* |
-| 15 | *Salsola arbuscula* | 30 | *Suaeda vermiculata* |
+| 1 | **AnaHau** | *Anabasis haussknechtii* Bge. ex Boiss. | Around Nodooshan |
+| 2 | **AnaSet** | *Anabasis setifera* Moq. | Desert areas around Yazd |
+| 3 | **AtrCan** | *Atriplex canescens* (Pursh) Nutt. | Cultivated between Ardakan and Yazd |
+| 4 | **AtrLen** | *Atriplex lentiformis* (Torr.) S. Watds. | Cultivated in Chah-Afzal of Ardakan |
+| 5 | **AtrLeu** | *Atriplex leucoclada* (Boiss.) Aellen | Desert areas around Yazd, Ardakan, and Meybod |
+| 6 | **CerAre** | *Ceratocarpus arenarius* L. | Around Taft (Shirkooh) |
+| 7 | **CheAlb** | *Chenopodium album* L. | Yazd province among farms and gardens |
+| 8 | **CorMon** | *Cornulaca monacantha* Delile | Between Yazd and Ardakan |
+| 9 | **GirOpp** | *Girgensonia oppositiflora* (Pall.) Fenzl. | Around Mehriz |
+| 10 | **HalAmm** | *Haloxylon ammodendron* (C. A. Mey.) Bge. | Wide area of Yazd Deserts |
+| 11 | **HalBel** | *Halostachys belangeriana* (Moq.) Botsch. | Abarkuh deserts |
+| 12 | **HalPer** | *Haloxylon persicum* Bge. ex Boiss. | From Mehriz to Marvast |
+| 13 | **HalStr** | *Halocnemum strobilaceum* (Pall.) M. B. | Salt marshes around Behabad and Aghda |
+| 14 | **HalSub** | *Halothamnus subaphyllus* (C. A. Mey.) Botsch. | Around Chadormaloo |
+| 15 | **HamSal** | *Hammada salicornica* (Moq.) Iljin | Yazd-Bafgh road |
+| 16 | **KocSco** | *Kochia scoparia* (L.) Schrad. | Often as weed in parks |
+| 17 | **KocSte** | *Kochia stellaris* Moq. | Yazd to Ardakan |
+| 18 | **SalAba** | *Salsola abarghuensis* Assadi | North of Abarkuh desert (Endemic to Iran) |
+| 19 | **SalDen** | *Salsola dendroides* Pall. | Between Marvast and Harat |
+| 20 | **SalInc** | *Salsola incanescens* C. A. Mey. | Around the road of Yazd-Ardakan |
+| 21 | **SalKal** | *Salsola kali* L. | Often as weed in different areas of Yazd |
+| 22 | **SalKer** | *Salsola kerneri* (Wol.) Osczak. Botsch. | Desert areas around Nodooshan |
+| 23 | **SalPra** | *Salsola praecox* Litw. | Sand dunes around Ardakan |
+| 24 | **SalTom** | *Salsola tomentosa* (Moq.) Spach. | Across the Yazd desert areas |
+| 25 | **SalTur** | *Salsola turcomanica* (Litv.) Freitag. | Ardakan Around |
+| 26 | **SalYaz** | *Salsola yazdiana* Assadi | Around Kharanagh (Endemic to Iran) |
+| 27 | **SeiCin** | *Seidlitzia cinerea* (Moq.) Bge & Botsch. | Eastern areas of Yazd |
+| 28 | **SeiRos** | *Seidlitzia rosmarinus* (Ehrenb.) Bge. ex Boiss. | Beside Yazd-Ardakan Road |
+| 29 | **SuaAcu** | *Suaeda acuminata* (C. A. Mey.) Moq. | Around Ardakan |
+| 30 | **SuaAeg** | *Suaeda aegyptiaca* (Hasselq.) Zohary | Around Ardakan |
 
 ---
 
