@@ -1,5 +1,5 @@
----
 
+```markdown
 # ACHENY: A Standard Chenopodiaceae Image Dataset
 ![Dataset Preview](Images/Samples.jpg)
 
@@ -12,13 +12,9 @@
 ## 📌 Overview
 Identifying species within the Chenopodiaceae family is historically challenging due to high morphological similarities. This dataset provides **27,030 high-resolution images** across **30 species**, captured in real-world desert and semi-desert conditions in the Yazd province of Iran.
 
-# ACHENY: A Standard Chenopodiaceae Plant Image Dataset
-
-
-
 ### Key Features:
 * **Diverse Conditions:** Captured under varying sunlight, wind, viewpoints, and distances.
-* **Standardized Format:** RGB images resized to $224 \times 224$ pixels (with $64 \times 64$ versions also available).
+* **Standardized Format:** RGB images resized to **224 x 224 pixels** (with 64 x 64 versions also available).
 * **Expert Labeling:** Collected from multiple bushes per species to ensure high intra-species variety.
 
 ## 🌿 Species List & Taxonomy
@@ -111,13 +107,11 @@ If you use the ACHENY dataset or the related models in your research, please cit
 ---
 
 ## 🚀 Data Access
-The full dataset is hosted on **Mendeley Data**:
+The full dataset is hosted on **Mendeley Data**:  
 [**Download ACHENY Dataset**](https://data.mendeley.com/datasets/fpfty8nn7j/1)
-
 
 > 🖼️ **Looking for High-Resolution images?** Original uncompressed files are available for research purposes. See [DATA_REQUEST.md](./Images/DATA_REQUEST.md) for details.
 
-
-
 ### 📄 License
 The dataset is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+```
